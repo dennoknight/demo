@@ -1,0 +1,191 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+/* Main container */
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(tree-8.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh; /* Changed to min-height for responsiveness */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.icon {
+    width: 200px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #ff7200;
+}
+
+/* Search container styling */
+.search {
+    display: flex;
+    align-items: center;
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Search input styling */
+.srch {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #120f0fbf; /* Light gray background */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.srch::placeholder {
+    color: #999; 
+}
+
+.srch:focus {
+    border-color: #ff7200; /* Highlight border on focus */
+}
+
+/* Search button styling */
+.btnn {
+    width: 80px;
+    height: 40px;
+    background-color: #ff7200;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnn:hover {
+    background-color: #ff8c00; /* Slightly darker on hover */
+}
+
+
+.btn {
+    width: 80px;
+    height: 40px;
+    background-color: #ff7200;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.btn:hover {
+    background-color: #ff8c00;
+}
+
+/* Content section styling */
+.content {
+    text-align: center;
+    padding: 40px;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 48px;
+}
+
+.par {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+.form {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.form h2 {
+    font-size: 24px;
+    color: #ff7200;
+    margin-bottom: 20px;
+}
+
+.form input {
+    width: 85%;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form button {
+    width: 100%;
+    height: 40px;
+    background-color: #ff7200;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #ff8c00;
+}
